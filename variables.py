@@ -73,3 +73,21 @@ print(f'my name is {name} and i got {marks} in Chemistry')
 
 whatIGot = f'my name is {name} and i got {marks} in Chemistry'
 print(whatIGot)
+
+
+# slicing: start:stop (start index included, stop not included)
+name = "Faith Chepkoech"
+print(name[0:4])
+print(name[0])
+print(name[0:-2])
+
+print(name[:4])
+print(name[3:])
+print(name[:])
+print(name[-2])
+
+# print(name[start:stop:step])
+print(name[0:12:2])
+
+print(name[15::-1])
+
